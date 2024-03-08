@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+#mid-div{
+    position: relative;
+    display: flex   ;
+    flex-direction: column;
+    align-items: center;
+}
+
+#m1 {
+    border: 0.009cm solid grey;
+    border-style:ridge;
+    border-radius: 0.2cm;
+    align-items: center;
+}
+
+#m2{
+    margin: 25px;
+}
+
+#si{
+    font-size: 25px;
+}
+
+.ema{
+    position: relative;
+    margin-top: 8px;
+}
+
+.ema label{
+    font-weight: 100;
+}
+
+.ema input{
+    width: 300px;
+    height: 35px;
+}
+
+#but {
+    background-color: #ffbb00;
+    border: rgb(238, 177, 23);
+    border-radius: 1cm;
+    width: 350px;
+    margin-top: 10px;
+    height: 25px;
+}
+
+#but:hover{
+    background-color: #ffe168;
+    border: rgb(225, 167, 19);
+
+}
+
+.edd p{
+    margin: 12px 0px 12px 0px;
+    white-space: pre-line;
+}
+
+.content{
+    
+    font-size: 13px;
+}
+
+.but1 button{
+    background-color: transparent;
+    display: block;
+    font-size: 16px;
+    background-color: rgb(250, 248, 248);
+    margin-bottom: 40px;
+    width: 403.641px;
+    border: 0.px solid #adb1b8 #a2a6ac #8d9096;;
+    height: 32px;
+    border-radius: 7px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont ul{
+    list-style: none;
+    display: flex;
+}
+
+img{
+    width: 200px;
+}
+
+.cont a {
+    margin: 10px;
+}
